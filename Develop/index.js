@@ -32,7 +32,7 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Please describe the license of your project."
+        choices: ["MIT", "APACHE", "GPL", "BSD", "None"],
     },
     {
         type: "input",
@@ -60,6 +60,10 @@ function init() {
     }
     );
 }
+
+//link generateMarkdown.js to index.js
+
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // Function call to initialize app
 init();
