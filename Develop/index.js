@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -16,13 +17,9 @@ const questions = [
     },
     {
         type: "input",
-        name: "Table of Contents",
-        message: "Please list the contents of your project."
-    },
-    {
-        type: "input",
         name: "installation",
-        message: "Please describe the installation process."
+        message: "Please describe the installation process.",
+        default: "npm install"
     },
     {
         type: "input",
@@ -39,6 +36,22 @@ const questions = [
         name: "contributing",
         message: "Please describe the contributing process."
     },
+    {
+        type: "input",
+        name: "tests",
+        message: "Please describe the tests for your project.",
+        default: "node index.js"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "Please type your GitHub username."
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please type your email."
+    }
 ];
 
 // TODO: Create a function to write README file
@@ -61,9 +74,7 @@ function init() {
     );
 }
 
-//link generateMarkdown.js to index.js
 
-const generateMarkdown = require("./utils/generateMarkdown");
 
 // Function call to initialize app
 init();
