@@ -1,6 +1,6 @@
-# asdasdas [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README generator [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-sdasdasd [MIT License](https://opensource.org/licenses/MIT)
+use comands to create a README file [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,23 +13,23 @@ sdasdasd [MIT License](https://opensource.org/licenses/MIT)
 ## Installation
 To install the application, run the following code...
 ```shell
-dasdasdas
+npm install
 ```
 
 ## Usage
-
+use this to create README templates
 
 ## License
-MIT License (MIT) - [MIT License](https://opensource.org/licenses/MIT)
+Apache License 2.0 (APACHE) - [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
 ## Contributing
-
+It was all mee!
 
 ## Tests
-
+no tests were made for this project
 
 ## Questions
-[GitHub Acc](https://github.com/)
+[GitHub Acc](https://github.com/SamMarch)
   
-Contact Me [here]().
+If you have more questions contact me [here](marchsam1988).
   
